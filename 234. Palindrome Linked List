@@ -1,0 +1,62 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    /*
+    //Optimal Approach
+    Approach :- here first what we have to do is get the middle node of the linkedlist then divide the linkedlist
+    in the two parts and now we have to reverse the one part of the linkedlist . Now after revering the one
+    part of linkedlist we will keep start compare the node's value from the beginning of the both linkedlist.
+    and if there is the value matches of both linkedlist till our one linkedlist pointer reaches the null means
+    it is palindrome linkedlist and if there will any value mismatch then it is not palindrome linkedlist return false
+    */
+
+   ListNode* reverse(ListNode* head){
+        if(head==NULL || head->next==NULL){
+            return head;
+        }
+
+        ListNode* newhead=reverse(head->next);
+        ListNode* front=head->next;
+        front->next=head;
+        head->next=NULL;
+        return newhead;
+   }
+    
+    bool isPalindrome(ListNode* head) {
+        ListNode* slow=head;
+        ListNode* fast=head;
+
+        while(fast->next != NULL && fast->next->next != NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+
+        }
+
+        ListNode* newhead=reverse(slow->next);
+        ListNode* first=head;
+        ListNode* second=newhead;
+
+        while(second!=NULL){
+            
+            if(first->val!=second->val){
+                reverse(newhead);
+                return false;
+            }
+            first=first->next;
+            second=second->next;
+        }
+
+        ListNode* newnode=reverse(newhead);
+        return true;
+
+    }
+};
