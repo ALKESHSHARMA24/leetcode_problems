@@ -1,0 +1,40 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        
+        //OPTIMAL APPROACH USING TORTOISE AND HARE ALGO CHECK PINNED NOTES
+        ListNode* fast=head;
+        ListNode* slow=head;
+
+        for (int i=1;i<=n;i++){
+            fast=fast->next;
+        }
+        //EDGE CASE (OUR FAST REACHED AT THE NULL MEANS NEED TO DELETE THE HEAD NODE)
+        //Tc O(length) as our fast will reach the nth node
+        //sc O(1)
+        if(fast==NULL){
+            ListNode* temp=head;
+            head=head->next;
+            return head;
+        }
+
+        while(fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next;
+        }
+
+        ListNode* temp=slow->next;
+        slow->next=slow->next->next;
+        return head;
+    }
+};
