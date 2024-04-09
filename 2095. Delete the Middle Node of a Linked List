@@ -1,0 +1,97 @@
+
+//c++ code
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* deleteMiddle(ListNode* head) {
+        ListNode* traverse=head;
+        ListNode* slow=head;
+        ListNode* fast=head;
+        ListNode* slow_prev=NULL;
+
+        if(head==NULL || head->next==NULL){
+           return head->next;
+        }
+        /*
+        //used 3rd variable to store the previous slow
+        while(fast!=NULL && fast->next!=NULL){
+            fast=fast->next->next;
+            slow_prev=slow;
+            slow=slow->next; 
+        }
+
+        slow_prev->next=slow->next;
+        delete slow;
+        */
+
+        //we can also solve this probelm without using any extra varible so what we can do is just skip
+        //the one step for slow pointer 
+
+        fast=fast->next->next;//skip one step for slow pointer
+        while(fast!=NULL && fast->next!=NULL){
+            fast=fast->next->next;
+            slow=slow->next;
+        }
+        slow->next=slow->next->next;
+        return head;
+    }
+};
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//java code
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode() {
+        val = 0;
+        next = null;
+    }
+
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }
+
+    ListNode(int x, ListNode next) {
+        val = x;
+        this.next = next;
+    }
+}
+
+class Solution {
+    public ListNode deleteMiddle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        ListNode slowPrev = null;
+
+        if (head == null || head.next == null) {
+            return head.next;
+        }
+
+        // Move slow and fast pointers, fast moves twice the speed of slow
+        fast = fast.next.next; // Skip one step for slow pointer
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slowPrev = slow;
+            slow = slow.next;
+        }
+
+        // Remove the middle node
+        if (slowPrev != null) {
+            slowPrev.next = slow.next;
+        }
+
+        return head;
+    }
+}
