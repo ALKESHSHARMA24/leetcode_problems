@@ -1,0 +1,97 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        //optimal approach without using any extra space 
+        /* Approach :- we will take temp node with initial value any thing.now we will take a pointer
+            to traverse from the both linkedlist and just change the links depends on the value comparison from the '
+            both linkedlist.
+        */
+
+        ListNode* dummyNode=new ListNode(-1);   
+        ListNode* temp=dummyNode;
+        ListNode* l1=list1;
+        ListNode* l2=list2;
+
+        while(l1!=NULL && l2!=NULL){
+            if(l1->val <= l2->val){
+                temp->next=l1; 
+            /* //we can't directly change the link of dummyNode as if we do then it will 
+            always points to the last node of the one of the nodes of the two linkedlist and becuase of it we
+            can't return the right node that's why we use temp variable for this */
+                temp=temp->next;
+                l1=l1->next;
+
+            }else{
+                temp->next=l2;
+                temp=temp->next;
+                l2=l2->next;
+            }
+        }
+        if(l1){
+            temp->next=l1;
+        }else{
+            temp->next=l2;
+        }
+
+        return dummyNode->next;
+    }
+};
+
+-------------------------------------------------------------------------java code------------------------------------------------------
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        // Optimal approach without using any extra space 
+        // Approach: we will take a dummy node with an initial value of anything.
+        // Now we will take a pointer to traverse both linked lists and just change the links
+        // depending on the value comparison from both linked lists.
+
+        ListNode dummyNode = new ListNode(-1);   
+        ListNode temp = dummyNode;
+        ListNode l1 = list1;
+        ListNode l2 = list2;
+
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                temp.next = l1; 
+                // We can't directly change the link of dummyNode as if we do, 
+                // then it will always point to the last node of one of the nodes 
+                // of the two linked lists, and because of it, we can't return the right node. 
+                // That's why we use a temp variable for this.
+                temp = temp.next;
+                l1 = l1.next;
+            } else {
+                temp.next = l2;
+                temp = temp.next;
+                l2 = l2.next;
+            }
+        }
+        if (l1 != null) {
+            temp.next = l1;
+        } else {
+            temp.next = l2;
+        }
+
+        return dummyNode.next;
+    }
+}
