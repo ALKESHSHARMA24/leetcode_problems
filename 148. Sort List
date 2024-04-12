@@ -13,137 +13,120 @@
  */
 class Solution {
 public:
+    //OPTIMAL APPRAOCH USING MERGE SORT WITH O(1) SC 
     ListNode* sortList(ListNode* head) {
-        //If List Contain a Single or 0 Node
-        if(head == NULL || head ->next == NULL)
-            return head;
-        
-        
-        ListNode *temp = NULL;
-        ListNode *slow = head;
-        ListNode *fast = head;
-        
-        // 2 pointer appraoach / turtle-hare Algorithm (Finding the middle element)
-        while(fast !=  NULL && fast -> next != NULL)
-        {
-            temp = slow;
-            slow = slow->next;          //slow increment by 1
-            fast = fast ->next ->next;  //fast incremented by 2
-            
-        }   
-        temp -> next = NULL;            //end of first left half
-        
-        ListNode* l1 = sortList(head);    //left half recursive call
-        ListNode* l2 = sortList(slow);    //right half recursive call
-        
-        return mergelist(l1, l2);         //mergelist Function call
-            
+      if(head==NULL || head->next==NULL){
+        return head;
+      }
+
+      ListNode* slow=head;
+      ListNode* fast=head->next; //we do this because we want first miidle node not second one
+
+      while(fast!=NULL && fast -> next !=NULL){
+        slow=slow->next;
+        fast=fast->next->next;
+      }
+      ListNode* MiddleNode=slow;//find first middle
+      ListNode* lefthead=head; 
+      ListNode* righthead=MiddleNode->next;
+      MiddleNode->next=NULL;
+
+      //ReAssign both head beacuse after the both part sorting done then may be there can be newhead replace for those part
+      lefthead=sortList(lefthead); 
+      righthead=sortList(righthead);
+      
+      return mergeList(lefthead,righthead); //merge the sorted parts again to linkedlist
     }
-    
-    //MergeSort Function O(n*logn)
-    ListNode* mergelist(ListNode *l1, ListNode *l2)
-    {
-        ListNode *ptr = new ListNode(0);
-        ListNode *curr = ptr;
-        
-        while(l1 != NULL && l2 != NULL)
-        {
-            if(l1->val <= l2->val)
-            {
-                curr -> next = l1;
-                l1 = l1 -> next;
+    ListNode* mergeList(ListNode* lefthead,ListNode* righthead){
+        ListNode* dummyNode=new ListNode(-1);
+        ListNode* traverse=dummyNode;
+        ListNode* ls1=lefthead;
+        ListNode* ls2=righthead;
+
+        while(ls1!=NULL && ls2!=NULL){
+            
+            if(ls1->val <= ls2->val){
+                traverse->next=ls1;
+                traverse=traverse->next;
+                ls1=ls1->next;
+            }else{
+                traverse->next=ls2;
+                traverse=traverse->next;
+                ls2=ls2->next;
             }
-            else
-            {
-                curr -> next = l2;
-                l2 = l2 -> next;
-            }
-        
-        curr = curr ->next;
-        
+            
         }
-        
-        //for unqual length linked list
-        
-        if(l1 != NULL)
-        {
-            curr -> next = l1;
-            l1 = l1->next;
+
+        if(ls1){
+            traverse->next=ls1;
+        }else{
+            traverse->next=ls2;
         }
-        
-        if(l2 != NULL)
-        {
-            curr -> next = l2;
-            l2 = l2 ->next;
-        }
-        
-        return ptr->next;
+        return dummyNode->next;
     }
 };
 
 ---------------------------------------------------------------------java code--------------------------------------------------
 
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
-
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
+    // OPTIMAL APPROACH USING MERGE SORT WITH O(1) SPACE COMPLEXITY 
     public ListNode sortList(ListNode head) {
-        // If list contains a single or 0 node
-        if(head == null || head.next == null)
+        if(head == null || head.next == null) {
             return head;
-        
-        ListNode temp = null;
+        }
+
         ListNode slow = head;
-        ListNode fast = head;
-        
-        // 2 pointer approach / turtle-hare Algorithm (Finding the middle element)
+        ListNode fast = head.next; // we do this because we want first middle node not the second one
+
         while(fast != null && fast.next != null) {
-            temp = slow;
-            slow = slow.next;           // slow increments by 1
-            fast = fast.next.next;     // fast incremented by 2
-        }   
-        temp.next = null;               // end of first left half
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        ListNode middleNode = slow; // find first middle
+        ListNode leftHead = head; 
+        ListNode rightHead = middleNode.next;
+        middleNode.next = null;
+
+        // Reassign both head because after sorting both parts, there can be new head replaced for those parts
+        leftHead = sortList(leftHead); 
+        rightHead = sortList(rightHead);
         
-        ListNode l1 = sortList(head);   // left half recursive call
-        ListNode l2 = sortList(slow);   // right half recursive call
-        
-        return mergeList(l1, l2);       // mergeList function call
-            
+        return mergeList(leftHead, rightHead); // merge the sorted parts again to linked list
     }
     
-    // MergeSort Function O(n*logn)
-    public ListNode mergeList(ListNode l1, ListNode l2) {
-        ListNode ptr = new ListNode(0);
-        ListNode curr = ptr;
-        
-        while(l1 != null && l2 != null) {
-            if(l1.val <= l2.val) {
-                curr.next = l1;
-                l1 = l1.next;
+    public ListNode mergeList(ListNode leftHead, ListNode rightHead) {
+        ListNode dummyNode = new ListNode(-1);
+        ListNode traverse = dummyNode;
+        ListNode ls1 = leftHead;
+        ListNode ls2 = rightHead;
+
+        while(ls1 != null && ls2 != null) {
+            if(ls1.val <= ls2.val) {
+                traverse.next = ls1;
+                traverse = traverse.next;
+                ls1 = ls1.next;
             } else {
-                curr.next = l2;
-                l2 = l2.next;
+                traverse.next = ls2;
+                traverse = traverse.next;
+                ls2 = ls2.next;
             }
-            curr = curr.next;
         }
-        
-        // For unequal length linked list
-        if(l1 != null) {
-            curr.next = l1;
-            l1 = l1.next;
+
+        if(ls1 != null) {
+            traverse.next = ls1;
+        } else {
+            traverse.next = ls2;
         }
-        
-        if(l2 != null) {
-            curr.next = l2;
-            l2 = l2.next;
-        }
-        
-        return ptr.next;
+        return dummyNode.next;
     }
 }
