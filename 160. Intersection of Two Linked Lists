@@ -1,0 +1,57 @@
+c++ code
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+         while(headB!= NULL) {
+        ListNode* traverse = headA;
+        while(traverse != NULL) {
+            //if both nodes are same
+            if(traverse == headB) return headB;
+            traverse = traverse->next;
+        }
+        headB = headB->next;
+    }
+    //intersection is not present between the lists return null
+    return NULL;
+    }
+};
+
+__________________________________________________________________________________JAVA CODE__________________________________________________________________________________
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        while (headB != null) {
+            ListNode traverse = headA;
+            while (traverse != null) {
+                // If both nodes are the same
+                if (traverse == headB) {
+                    return headB;
+                }
+                traverse = traverse.next;
+            }
+            headB = headB.next;
+        }
+        // Intersection is not present between the lists, return null
+        return null;
+    }
+}
