@@ -1,32 +1,38 @@
 class Solution {
 public:
-    int round(double a,double b){
-        int x=a/b;
-        double n=a/b;
-        if(n-x>0)
-            return x+1;
-        return x;
-    }
-
     int smallestDivisor(vector<int>& nums, int threshold) {
-        long long int s=1,e,ans;
-        sort(nums.begin(),nums.end());
-        for(int i=0;i<nums.size();++i)
-            e=e+nums[i];
-        long long int mid=s+(e-s)/2;
-        while(s<=e){
-            int sum=0;
-            for(int i=0;i<nums.size();++i){
-                sum+= (round(nums[i],mid));
-            }
-            if(sum<=threshold){
-                e=mid-1;
-                ans=mid;
-            }
-            else
-                s=mid+1;
-            mid=s+(e-s)/2;
+        int start=0;
+        int end=nums.size()-1;
+        int minDivisor=0;
+        int maxDivisor=1;
+        int largestValue=0;
+
+        for (int num : nums) {
+            largestValue = std::max(largestValue, num);
         }
-        return mid;  
+
+        minDivisor = largestValue;
+
+        while(maxDivisor<=largestValue){
+
+            int mid=maxDivisor+(largestValue-maxDivisor)/2;
+            int divisorSum=0;
+            start=0;
+            while(start<=end){
+                divisorSum+=ceil(nums[start]/(double)mid);
+                start++;
+            }
+
+            if(divisorSum<=threshold){
+                if(mid<=minDivisor){
+                    minDivisor=mid;
+                }
+                largestValue=mid-1; 
+            }else{
+                maxDivisor=mid+1;
+            }
+
+        }
+        return minDivisor;
     }
 };
