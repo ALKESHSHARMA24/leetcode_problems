@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 # String
 |  |
@@ -22,3 +23,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0069-sqrtx) |
+# Hash Table
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
+# Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
