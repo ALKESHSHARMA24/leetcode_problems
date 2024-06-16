@@ -36,3 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+# Backtracking
+|  |
+| ------- |
+| [0077-combinations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0077-combinations) |
