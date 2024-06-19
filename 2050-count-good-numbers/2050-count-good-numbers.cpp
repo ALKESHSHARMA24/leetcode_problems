@@ -1,30 +1,37 @@
-#define MOD 1000000007
-#include<bits/stdc++.h>
-
 class Solution {
 public:
-long long power(long long a,long long b){
+    
+    const int MOD = 1e9 + 7;
+    long long power(long long n,long long m){
+        long long localAns=0;
+        if(m==0){
+            return 1;
+        }
+        if(m%2==0){
+            localAns=power(n,m/2);
+            localAns=(localAns*localAns) % MOD;
+            return localAns;
+        }else{ 
+            localAns=power(n,(m-1)/2);
+            localAns=(n*(localAns*localAns)) % MOD;
+            return localAns ;
+        }
 
-    if(b==0) return 1;
-
-    long long half_power= power(a,b/2);
-    if(b%2 ==0)
-    return half_power*half_power % MOD;
-
-    else
-    return half_power*half_power % MOD * (a % MOD) % MOD ;
-}
-int countGoodNumbers(long long n) {
-    long long ed;
-    long long od;
-    if(n&1){
-        od=n/2;
-        ed=(n+1)/2;
     }
-    else{
-        od=n/2;
-        ed=n/2;
+    int countGoodNumbers(long long n) {
+        // we can't directly find the solution using the multipicaion number of possible number      according to the odd and even places like 
+        //for even places we have choice from(0,2,4,6,8)
+        //for odd places we have choices from (2,3,5,7) 
+        // so we use direct calucation like 5*4*5*4*.... it will overflow the int value and also the given will be 2^15 which already get overflow from int ranage      
+
+        //now what can we do is just finding the number of odd even place then we just have to do simple calcuation like (5^even_places) * (4^odd places)
+
+        //find the total number of places n
+        long odd=n/2;
+        long even=(n/2)+n%2;
+
+        //to find the power of 5 and 4
+        int ans=(power(4,odd)*power(5,even)) % MOD;
+        return ans;
     }
-    return ((power(5,ed)%MOD)*(power(4,od)%MOD))%MOD;
-}
 };
