@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0069-sqrtx) |
+| [2050-count-good-numbers](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2050-count-good-numbers) |
 # Binary Search
 |  |
 | ------- |
@@ -41,3 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0077-combinations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0077-combinations) |
+# Recursion
+|  |
+| ------- |
+| [2050-count-good-numbers](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2050-count-good-numbers) |
