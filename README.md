@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0008-string-to-integer-atoi) |
+| [0038-count-and-say](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0038-count-and-say) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 # Simulation
 |  |
