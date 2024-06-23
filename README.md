@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0046-permutations) |
 | [0073-set-matrix-zeroes](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0077-combinations) |
 # Recursion
 |  |
