@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0046-permutations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0046-permutations) |
+| [0059-spiral-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -18,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Simulation
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0059-spiral-matrix-ii) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 # Math
 |  |
@@ -35,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Matrix
 |  |
 | ------- |
+| [0059-spiral-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
 # Dynamic Programming
 |  |
