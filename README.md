@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0046-permutations) |
 | [0059-spiral-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0073-set-matrix-zeroes) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 # String
@@ -68,3 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0104-maximum-depth-of-binary-tree) |
+# Two Pointers
+|  |
+| ------- |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
