@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0008-string-to-integer-atoi) |
+| [0022-generate-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0022-generate-parentheses) |
 | [0038-count-and-say](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0038-count-and-say) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 # Simulation
@@ -43,10 +44,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 # Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0077-combinations) |
 # Recursion
