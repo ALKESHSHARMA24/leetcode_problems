@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [1078-remove-outermost-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
+| [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -109,4 +110,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1078-remove-outermost-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
+## Math
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
+## Greedy
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
