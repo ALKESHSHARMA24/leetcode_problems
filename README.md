@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [1078-remove-outermost-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
@@ -118,4 +119,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
