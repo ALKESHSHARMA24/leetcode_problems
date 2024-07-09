@@ -93,12 +93,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
 | [0205-isomorphic-strings](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0205-isomorphic-strings](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0242-valid-anagram) |
 | [0812-rotate-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
@@ -130,4 +132,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0812-rotate-string) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
