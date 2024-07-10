@@ -1,19 +1,32 @@
 class Solution {
 public:
-    int romanToInt(string s) {
-       int ans=0;
-        unordered_map <char,int> mp{
-        {'I',1},{'V',5},{'X',10},{'L',50},{'C',100},{'D',500},{'M',1000}};
 
-    for(int i=0;i<s.size();i++){
-        if(mp[s[i]]<mp[s[i+1]]){
-            //for cases such as IV,CM, XL, etc...
-            ans=ans-mp[s[i]];
-        }
-        else{
-            ans=ans+mp[s[i]];
-        }
-    }
-        return ans; 
+    
+    int romanToInt(string s) {
+        //FIRST MAP THE ALL CHARACTER WHICH ARE GIVEN AS A INFROMATION.
+       unordered_map<char,int> mp;
+       mp['I']=1;
+       mp['V']=5;
+       mp['X']=10;
+       mp['L']=50;
+       mp['C']=100;
+       mp['D']=500;
+       mp['M']=1000;
+       
+       int result=mp[s[s.length()-1]];
+       
+       for(int i=s.length()-2;i>=0;i--){
+        //IF THE CURRENT CHARCTER VALUE IS LESS THAN THE UPCOMING CHARCTER THAN SIMPLY DECREMENT THE CURRENT CHRACTER'S VALUE FROM THE RESULT.
+         char c=s[i];
+         if(mp[c]<mp[s[i+1]]){
+
+            result=result-mp[c];
+
+         }else{
+            //ADD THE VALUE OF CURRENT CHRACTER VALUE INTO THE RESULT
+            result=result+mp[c];
+         }
+       }
+       return result;
     }
 };
