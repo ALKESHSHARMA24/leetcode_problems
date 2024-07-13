@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
+| [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1078-remove-outermost-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
 ## Math
 |  |
 | ------- |
@@ -147,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0242-valid-anagram](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0451-sort-characters-by-frequency) |
+| [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -164,4 +167,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
 <!---LeetCode Topics End-->
