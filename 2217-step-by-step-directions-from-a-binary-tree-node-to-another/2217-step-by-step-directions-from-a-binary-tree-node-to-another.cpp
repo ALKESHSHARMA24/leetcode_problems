@@ -48,13 +48,14 @@ TreeNode* findLca(TreeNode*root ,int startval,int destval){
         if(findDirection(root->left,target,dir)==true){
             return true;
         }
-        dir.pop_back();
+        dir.pop_back();//IF DON'T FIND TARGET IN THE LEFT SUBTREE THEN REOMVE THE L.
+
         dir.push_back('R');
 
         if(findDirection(root->right,target,dir)==true){
             return true;
         }
-        dir.pop_back();
+        dir.pop_back();//IF NOT FOUND TARGET IN THE RIGHT PART THEN REMOVE THE ADD 'R' FROM THE STRING.
         return false;
 
     }
