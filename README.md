@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Backtracking
 |  |
 | ------- |
@@ -175,4 +176,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
+## Tree
+|  |
+| ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Depth-First Search
+|  |
+| ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Binary Tree
+|  |
+| ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 <!---LeetCode Topics End-->
