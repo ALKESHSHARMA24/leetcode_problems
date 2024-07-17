@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
+| [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
 ## Dynamic Programming
 |  |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0451-sort-characters-by-frequency) |
 | [0726-number-of-atoms](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0726-number-of-atoms) |
+| [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## String
 |  |
@@ -180,16 +182,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0199-binary-tree-right-side-view) |
+| [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0199-binary-tree-right-side-view) |
+| [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Tree
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0199-binary-tree-right-side-view) |
+| [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
 |  |
