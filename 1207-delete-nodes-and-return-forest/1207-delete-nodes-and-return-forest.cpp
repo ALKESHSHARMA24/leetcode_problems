@@ -9,7 +9,7 @@ public:
         
         root->left = Helper(root->left, st, ans);
         root->right = Helper(root->right, st, ans);
-        
+        //IF WE WANT TO DELETE THE CURRENT NODE AND THEN SIMPLY ADD THE ITS LEFT AND RIGHT CHILD INTO THE RESULT
         if (st.find(root->val) != st.end()) {
             if (root->left != NULL)
                 ans.push_back(root->left);
