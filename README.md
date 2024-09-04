@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
+| [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2502-sort-the-people](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
+| [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2502-sort-the-people](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2502-sort-the-people) |
 ## String
@@ -148,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0013-roman-to-integer) |
+| [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
 ## Greedy
 |  |
@@ -222,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
+| [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
 | ------- |
