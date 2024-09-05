@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0451-sort-characters-by-frequency) |
+| [0556-next-greater-element-iii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0556-next-greater-element-iii) |
 | [0726-number-of-atoms](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0726-number-of-atoms) |
 | [0812-rotate-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0013-roman-to-integer) |
+| [0556-next-greater-element-iii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0556-next-greater-element-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
 ## Greedy
@@ -190,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
+| [0556-next-greater-element-iii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0556-next-greater-element-iii) |
 ## Simulation
 |  |
 | ------- |
