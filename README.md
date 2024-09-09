@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0735-asteroid-collision) |
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0726-number-of-atoms) |
+| [0735-asteroid-collision](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0735-asteroid-collision) |
 | [1078-remove-outermost-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
@@ -198,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0735-asteroid-collision) |
 | [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
 ## Tree
 |  |
