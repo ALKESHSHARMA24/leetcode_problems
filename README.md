@@ -145,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0155-min-stack) |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0726-number-of-atoms) |
 | [0735-asteroid-collision](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0735-asteroid-collision) |
@@ -242,4 +243,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
