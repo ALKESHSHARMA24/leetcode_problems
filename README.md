@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2502-sort-the-people](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
@@ -162,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0013-roman-to-integer) |
 | [0556-next-greater-element-iii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0556-next-greater-element-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1500-count-largest-group) |
 | [2032-largest-odd-number-in-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2032-largest-odd-number-in-string) |
 ## Greedy
