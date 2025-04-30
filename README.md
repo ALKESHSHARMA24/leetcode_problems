@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
+| [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0735-asteroid-collision) |
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
@@ -245,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 ## Monotonic Stack
 |  |
@@ -255,4 +258,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0155-min-stack) |
+## Binary Search
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
