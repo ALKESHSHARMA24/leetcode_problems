@@ -9,11 +9,11 @@ public:
 
         while(right<nums.size()){
             currentSum+=nums[right];
-
             if(currentSum>=target){
-                // minLength=min(currentSum,right-left+1);
-
-                while(currentSum>=target && left<=right){
+                 minLength=min(minLength,right-left+1);
+                currentSum-=nums[left];
+                left++;
+                while(left<=right && currentSum>=target){
                     minLength=min(minLength,right-left+1);
                     currentSum-=nums[left];
                     left++;
@@ -21,7 +21,7 @@ public:
             }    
             right++;        
         }   
-        return minLength == INT_MAX ? 0 : minLength;
+        return minLength==INT_MAX ? 0: minLength;
 
     }
 };
