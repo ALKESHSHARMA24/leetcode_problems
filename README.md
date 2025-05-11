@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
+| [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
 | [0943-sum-of-subarray-minimums](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0943-sum-of-subarray-minimums) |
 ## Hash Table
@@ -262,4 +264,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
