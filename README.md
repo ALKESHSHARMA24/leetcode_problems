@@ -268,4 +268,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
