@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0560-subarray-sum-equals-k) |
 | [0735-asteroid-collision](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0735-asteroid-collision) |
@@ -152,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Stack
 |  |
@@ -269,10 +271,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
+| [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 ## Linked List
 |  |
 | ------- |
