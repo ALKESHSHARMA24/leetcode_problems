@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
 | [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0074-search-a-2d-matrix) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
+| [0074-search-a-2d-matrix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Stack
@@ -270,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0074-search-a-2d-matrix) |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 ## Divide and Conquer
