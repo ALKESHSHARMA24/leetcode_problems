@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0503-next-greater-element-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0560-subarray-sum-equals-k) |
+| [0594-longest-harmonious-subsequence](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0735-asteroid-collision](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0735-asteroid-collision) |
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0943-sum-of-subarray-minimums) |
@@ -117,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0560-subarray-sum-equals-k) |
+| [0594-longest-harmonious-subsequence](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0726-number-of-atoms](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0726-number-of-atoms) |
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
@@ -195,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0242-valid-anagram](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0451-sort-characters-by-frequency) |
+| [0594-longest-harmonious-subsequence](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0726-number-of-atoms](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0726-number-of-atoms) |
 | [2502-sort-the-people](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/2846-robot-collisions) |
@@ -210,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0451-sort-characters-by-frequency) |
+| [0594-longest-harmonious-subsequence](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0594-longest-harmonious-subsequence) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Two Pointers
 |  |
@@ -251,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0424-longest-repeating-character-replacement) |
+| [0594-longest-harmonious-subsequence](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0594-longest-harmonious-subsequence) |
 | [0940-fruit-into-baskets](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1370-count-number-of-nice-subarrays) |
