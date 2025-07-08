@@ -22,16 +22,18 @@ public:
             i++;
         }
 
+           while(!pq.empty() && day > pq.top()){
+            pq.pop();
+            // count++;
+        }
+
         if(!pq.empty()){
              pq.pop();
         count++;
         }
        
         
-          while(!pq.empty() && day >= pq.top()){
-            pq.pop();
-            // count++;
-        }
+       
 
        
 
