@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0079-word-search) |
 | [0118-pascals-triangle](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0118-pascals-triangle) |
 | [0209-minimum-size-subarray-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0079-word-search](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0205-isomorphic-strings) |
@@ -157,12 +159,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0039-combination-sum](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0131-palindrome-partitioning) |
 ## Matrix
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 ## Stack
@@ -244,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0079-word-search) |
 | [0199-binary-tree-right-side-view](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0199-binary-tree-right-side-view) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/1653-number-of-good-leaf-nodes-pairs) |
