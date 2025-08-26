@@ -231,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0151-reverse-words-in-a-string](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0151-reverse-words-in-a-string) |
 | [0556-next-greater-element-iii](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0556-next-greater-element-iii) |
 ## Simulation
@@ -302,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0206-reverse-linked-list](https://github.com/ALKESHSHARMA24/leetcode_problems/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
